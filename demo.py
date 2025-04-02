@@ -9,9 +9,14 @@ from llama_index.core import (
     SimpleDirectoryReader,
     Settings
 )
+from dotenv import load_dotenv
 from llama_index.core.node_parser import SentenceSplitter
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCgDPB0WnLxg2fGb13M8dVq833lThkdyXM"
+# Load environment variables from .env file
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+
+os.environ["GOOGLE_API_KEY"] = API_KEY
 
 
 gemini_embedding_model = GeminiEmbedding(model_name="models/embedding-001")
