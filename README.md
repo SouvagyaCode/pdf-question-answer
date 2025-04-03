@@ -1,4 +1,4 @@
-# 📄 Gemini PDF Query App
+# Gemini PDF Query App
 
 A **Streamlit-based** application that allows users to **upload PDFs** and ask questions about their contents using **Gemini AI** and **LlamaIndex**.
 
