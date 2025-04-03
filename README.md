@@ -16,11 +16,11 @@ A **Streamlit-based** application that allows users to **upload PDFs** and ask q
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/gemini-pdf-query.git
+git clone https://github.com/SouvagyaCode/pdf-question-answer.git
 ```
 ### 2️⃣ Navigate to the Directory
 ```bash
-cd gemini-pdf-query
+cd pdf-question-answer
 ```
 ### 3️⃣ Install Required Packages
 ```bash
