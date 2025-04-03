@@ -12,7 +12,7 @@ from llama_index.core import (
 from dotenv import load_dotenv
 from llama_index.core.node_parser import SentenceSplitter
 
-# Load environment variables from .env file
+
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
